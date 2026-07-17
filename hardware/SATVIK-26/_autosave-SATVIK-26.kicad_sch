@@ -3900,16 +3900,34 @@
 		(uuid "10741453-7dc1-4e69-a063-bd3fd73e7238")
 	)
 	(junction
+		(at 287.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1451f276-36da-444e-9977-0f0fa398af17")
+	)
+	(junction
 		(at 308.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d61e29-58b2-440a-8502-293c228df421")
 	)
 	(junction
+		(at 294.64 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25171c04-6fc8-4dad-a547-7054252fdfd5")
+	)
+	(junction
 		(at 266.7 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45101f07-06d1-469f-b825-b702815cb4e1")
+	)
+	(junction
+		(at 284.48 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "486b2887-ac8e-46a0-9ea8-9ca5b0a01921")
 	)
 	(junction
 		(at 290.83 95.25)
@@ -4019,6 +4037,18 @@
 		(color 0 0 0 0)
 		(uuid "d4a6982d-7971-4561-bba9-2d03281997a9")
 	)
+	(junction
+		(at 289.56 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaa272e3-d488-4484-b590-633ebd40c9c5")
+	)
+	(junction
+		(at 292.1 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0aab2a1-311f-4d1b-94f4-21963a3552b6")
+	)
 	(wire
 		(pts
 			(xy 163.83 193.04) (xy 163.83 194.31)
@@ -4121,6 +4151,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 113.03) (xy 281.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2886a2f1-1765-4f6b-8b79-fff16644e12e")
+	)
+	(wire
+		(pts
 			(xy 281.94 95.25) (xy 290.83 95.25)
 		)
 		(stroke
@@ -4128,6 +4168,16 @@
 			(type default)
 		)
 		(uuid "290976aa-4d29-449f-a83a-f01ef4101638")
+	)
+	(wire
+		(pts
+			(xy 294.64 109.22) (xy 297.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c59e2a1-7c4d-4c8f-a82a-75103173c062")
 	)
 	(wire
 		(pts
@@ -4188,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "37ae14fa-e01b-4428-a23f-a03d9b8a7718")
+	)
+	(wire
+		(pts
+			(xy 292.1 109.22) (xy 294.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380e5dc4-3728-4596-9807-43e1293d5a34")
 	)
 	(wire
 		(pts
@@ -4271,6 +4331,26 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 105.41) (xy 289.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d30dc9e-a843-45cb-af72-c5d000e36315")
+	)
+	(wire
+		(pts
+			(xy 297.18 109.22) (xy 297.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef46adb-bbe3-4813-a6f4-e8de502ce765")
+	)
+	(wire
+		(pts
 			(xy 142.24 207.01) (xy 142.24 212.09)
 		)
 		(stroke
@@ -4351,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 109.22) (xy 292.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605ed658-4076-4533-a32b-98e74f864042")
+	)
+	(wire
+		(pts
 			(xy 245.11 153.67) (xy 248.92 153.67)
 		)
 		(stroke
@@ -4391,6 +4481,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 109.22) (xy 287.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e8c983-13a3-4a68-892a-12d6cb7693d8")
+	)
+	(wire
+		(pts
+			(xy 287.02 109.22) (xy 287.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a149bcb-61b9-4f29-85e8-98942ac963a7")
+	)
+	(wire
+		(pts
 			(xy 147.32 196.85) (xy 147.32 203.2)
 		)
 		(stroke
@@ -4401,6 +4511,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 109.22) (xy 294.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2f4f33-658f-4f2d-855a-a3881086ae87")
+	)
+	(wire
+		(pts
 			(xy 308.61 95.25) (xy 317.5 95.25)
 		)
 		(stroke
@@ -4408,6 +4528,16 @@
 			(type default)
 		)
 		(uuid "7c0faa58-37a7-44c8-b8a4-47d6d52c4e50")
+	)
+	(wire
+		(pts
+			(xy 284.48 109.22) (xy 284.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8468ad-c08b-476f-aa27-9804dd01257c")
 	)
 	(wire
 		(pts
@@ -4591,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 109.22) (xy 289.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe2c53d-d2c4-4ada-a2c1-28ecd5bbbd86")
+	)
+	(wire
+		(pts
 			(xy 275.59 85.09) (xy 281.94 85.09)
 		)
 		(stroke
@@ -4681,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 109.22) (xy 284.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc31026-33e8-4090-816c-336255d5c78b")
+	)
+	(wire
+		(pts
 			(xy 299.72 95.25) (xy 308.61 95.25)
 		)
 		(stroke
@@ -4751,6 +4901,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 109.22) (xy 292.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53f2aa5-aa0a-4db3-8b72-929c256503b4")
+	)
+	(wire
+		(pts
 			(xy 134.62 186.69) (xy 148.59 186.69)
 		)
 		(stroke
@@ -4808,6 +4968,16 @@
 			(type default)
 		)
 		(uuid "edd5ca8d-bfe2-4f09-b2bd-66b9e8262a86")
+	)
+	(wire
+		(pts
+			(xy 287.02 109.22) (xy 289.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b48106-4783-412d-adba-a13c38d508bf")
 	)
 	(wire
 		(pts
@@ -6053,6 +6223,85 @@
 			(project "SATVIK-26"
 				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 289.56 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731866dd-cfaa-488b-acc8-8fbbb62e5806")
+		(property "Reference" "#PWR012"
+			(at 285.75 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 293.37 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 289.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fbab035-8a22-4fe9-9eb4-190173ea195c")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
