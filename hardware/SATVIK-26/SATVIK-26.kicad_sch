@@ -543,9 +543,129 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 143.51 71.12) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c82490-8a37-426a-83cd-e9dd697f2d7b")
+	)
+	(wire
+		(pts
+			(xy 160.02 97.79) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af7ac5c-f8f4-4813-a004-2b7820c97e58")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f0a0fa-1443-44cc-ba0c-30106e33bb89")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643e9ce0-d3b3-45b4-8a88-dbe7c5d3bedc")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781e2774-de9d-4917-a403-4957ebe7bd7f")
+	)
+	(wire
+		(pts
+			(xy 146.05 123.19) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0daf8bf-3fc0-47e6-b94b-e88ae165893c")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4add3df-07b0-4901-bf5a-4dfb0d062236")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26668d2-2a5c-442b-8fd1-9421ecd43142")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5703205-6217-495a-a546-7e01bead0024")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60bf7cd-25e3-402e-8a0a-4c5a7edbff4c")
+	)
+	(wire
+		(pts
+			(xy 168.91 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1558ce6-a4ac-4aaf-8f7b-4653b3a464f8")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2e285e-569a-4aa5-926e-3a6071bcc0aa")
+	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 88.9 0)
+		(at 146.05 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -553,10 +673,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51f9805f-64f6-4169-a0c8-d3bc529820c5")
-		(property "Reference" "R1"
-			(at 132.08 87.6299 0)
+		(uuid "31c37dd2-f8e4-44d1-bce3-568f80cce05f")
+		(property "Reference" "R7"
+			(at 103.886 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -567,7 +686,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 132.08 90.1699 0)
+			(at 148.59 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -578,7 +697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.762 88.9 90)
+			(at 144.272 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -589,7 +708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 88.9 0)
+			(at 146.05 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -600,7 +719,89 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 88.9 0)
+			(at 146.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31050bf5-78d3-4b0e-ade9-5828ab27b8d7")
+		)
+		(pin "2"
+			(uuid "63238e2f-5a1e-43ba-8e03-13f1a8071d75")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f9805f-64f6-4169-a0c8-d3bc529820c5")
+		(property "Reference" "R1"
+			(at 124.46 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.142 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -626,8 +827,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 168.91 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c2f2b6-c7d7-4d9d-a456-9cc5ad485016")
+		(property "Reference" "R9"
+			(at 171.45 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 171.45 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.132 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f386ba4-ff6f-4288-98b3-974648c2bd91")
+		)
+		(pin "1"
+			(uuid "6252356a-f664-4974-a8bb-973313d4226c")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:SST26VF064Bxx-xxxx-MF")
-		(at 119.38 106.68 0)
+		(at 90.17 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -638,7 +921,7 @@
 		(fields_autoplaced yes)
 		(uuid "611b9273-035c-4fb2-bb18-8fe56dc0de4a")
 		(property "Reference" "U1"
-			(at 128.27 105.4099 0)
+			(at 99.06 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -649,7 +932,7 @@
 			)
 		)
 		(property "Value" "SST26VF064Bxx-xxxx-MF"
-			(at 128.27 107.9499 0)
+			(at 99.06 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -660,7 +943,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
-			(at 119.38 121.92 0)
+			(at 90.17 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -671,7 +954,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-2.5V-3.0V-64-Mbit-Serial-Quad-IO-Flash-Memory-Data-Sheet-DS20005119J.pdf"
-			(at 118.745 124.46 0)
+			(at 89.535 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -682,7 +965,7 @@
 			)
 		)
 		(property "Description" "64-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, DFN-8"
-			(at 117.475 127 0)
+			(at 88.265 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -808,8 +1091,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 104.14 119.38 0)
+		(lib_id "Device:R")
+		(at 222.25 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -818,9 +1101,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0970068-7481-4e30-9f5a-db6e2081216f")
-		(property "Reference" "C3"
-			(at 107.95 118.1099 0)
+		(uuid "7d308ccb-ddcb-48b9-80f3-41276ef59f5a")
+		(property "Reference" "R6"
+			(at 224.79 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -830,8 +1113,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 107.95 120.6499 0)
+		(property "Value" "R"
+			(at 224.79 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -842,7 +1125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.1052 123.19 0)
+			(at 220.472 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -853,7 +1136,170 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 119.38 0)
+			(at 222.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f058ab6-d34d-453c-8706-30b7d6724176")
+		)
+		(pin "1"
+			(uuid "e753495a-8ad5-450d-83a0-2a4ea88cbd14")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6ab284-cf1f-40b6-a977-7c1e72518673")
+		(property "Reference" "R8"
+			(at 171.45 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 171.45 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.132 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3f23e94-7ebe-4124-944e-b66a5ce3f588")
+		)
+		(pin "1"
+			(uuid "1e7cc888-3c5e-4dd1-8d5c-04d79412ff74")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0970068-7481-4e30-9f5a-db6e2081216f")
+		(property "Reference" "C3"
+			(at 78.74 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 100.33 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.4852 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -864,7 +1310,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 119.38 0)
+			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -884,6 +1330,88 @@
 			(project "SATVIK-26"
 				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30092b6-773c-408b-9826-3229e1c7704d")
+		(property "Reference" "R3"
+			(at 148.59 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 148.59 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.272 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b7cae3e-d6bc-4836-8230-73c0fe83c931")
+		)
+		(pin "2"
+			(uuid "757803d8-9bd1-4185-8ddc-ef95331be6e5")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -966,6 +1494,170 @@
 			(project "SATVIK-26"
 				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df6db9da-d011-40a8-ac2b-0de71da9d6f4")
+		(property "Reference" "R5"
+			(at 95.25 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 95.25 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.932 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c581c4b9-ff71-4d20-9721-5a3d5105dc13")
+		)
+		(pin "2"
+			(uuid "8207ad85-6c71-4715-9b9d-6b3e9df31b19")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8178f4c-0131-4645-993f-0d5fb32197bd")
+		(property "Reference" "R4"
+			(at 187.96 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 187.96 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.642 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "887e1518-ed50-4d0c-a1f7-9ab2514d2336")
+		)
+		(pin "2"
+			(uuid "3e554c27-8109-4eda-8005-f92058da4e8a")
+		)
+		(instances
+			(project "SATVIK-26"
+				(path "/6d528f37-bbec-45e4-b49f-1b9f45291d26"
+					(reference "R4")
 					(unit 1)
 				)
 			)
