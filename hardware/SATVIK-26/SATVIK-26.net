@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\gargs\\Desktop\\SavvyVenv\\GITTY\\SATVIK-26\\hardware\\SATVIK-26\\SATVIK-26.kicad_sch")
-		(date "2026-07-21T14:20:42")
+		(date "2026-07-22T20:55:57")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
@@ -6277,7 +6277,7 @@
 		(net
 			(code "1")
 			(name "+3V3")
-			(class "Default")
+			(class "Power,Default")
 			(node
 				(ref "C10")
 				(pin "1")
@@ -6488,7 +6488,7 @@
 		(net
 			(code "2")
 			(name "+5V")
-			(class "Default")
+			(class "Power,Default")
 			(node
 				(ref "C17")
 				(pin "1")
@@ -7183,7 +7183,7 @@
 		(net
 			(code "35")
 			(name "/VBAT_RAW")
-			(class "Default")
+			(class "Power,Default")
 			(node
 				(ref "C6")
 				(pin "2")
@@ -7270,7 +7270,7 @@
 		(net
 			(code "38")
 			(name "GND")
-			(class "Default")
+			(class "Power,Default")
 			(node
 				(ref "C1")
 				(pin "1")
@@ -7586,8 +7586,44 @@
 			)
 			(node
 				(ref "U4")
+				(pin "10")
+				(pinfunction "RESV_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "11")
+				(pinfunction "RESV_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "RESV_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "RESV_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
 				(pin "6")
 				(pinfunction "GND_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "RESV_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "9")
+				(pinfunction "INT2/FSYNC/CLKIN_9")
 				(pintype "unspecified")
 			)
 			(node
@@ -8587,72 +8623,6 @@
 		)
 		(net
 			(code "110")
-			(name "unconnected-(U4-INT2{slash}FSYNC{slash}CLKIN-Pad9)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "9")
-				(pinfunction "INT2/FSYNC/CLKIN_9")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "111")
-			(name "unconnected-(U4-RESV-Pad2)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "2")
-				(pinfunction "RESV_2")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "112")
-			(name "unconnected-(U4-RESV-Pad3)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "3")
-				(pinfunction "RESV_3")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "113")
-			(name "unconnected-(U4-RESV-Pad7)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "7")
-				(pinfunction "RESV_7")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "114")
-			(name "unconnected-(U4-RESV-Pad10)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "10")
-				(pinfunction "RESV_10")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "115")
-			(name "unconnected-(U4-RESV-Pad11)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "11")
-				(pinfunction "RESV_11")
-				(pintype "unspecified+no_connect")
-			)
-		)
-		(net
-			(code "116")
 			(name "unconnected-(U5-INT-Pad7)")
 			(class "Default")
 			(node
@@ -8663,7 +8633,7 @@
 			)
 		)
 		(net
-			(code "117")
+			(code "111")
 			(name "unconnected-(USB1-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -8674,7 +8644,7 @@
 			)
 		)
 		(net
-			(code "118")
+			(code "112")
 			(name "unconnected-(USB1-SBU2-PadB8)")
 			(class "Default")
 			(node

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.7,
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
@@ -203,7 +209,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.254,
+        0.399999,
+        0.599999
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +242,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -532,7 +549,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "VBAT_RAW"
+        "pattern": "/VBAT_RAW"
       },
       {
         "netclass": "Power",
@@ -676,7 +693,7 @@
         "uuid": "6d528f37-bbec-45e4-b49f-1b9f45291d26"
       }
     ],
-    "used_designators": "#FLG1-3,R1-23,C1-30,U1-6,D1-5,L1,#PWR1-67,SW1-2,Y1,USB1,J1-7",
+    "used_designators": "#FLG1-3,R1-23,C1-30,U1-6,D1-5,L1,#PWR1-70,SW1-2,Y1,USB1,J1-7",
     "variants": []
   },
   "sheets": [
